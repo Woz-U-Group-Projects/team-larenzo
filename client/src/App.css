@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the input */
+input {
+  height: 40px;
+  width: 50%;
+  border: none;
+  border-bottom: 2px #01040e solid;
+  background: none;
+  font-size: 1.5rem;
+  color: #01040e;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Style the "Add" button */
+button {
+  width: 25%;
+  height: 45px;
+  border: none;
+  margin-left: 10px;
+  font-size: 25px;
+  background: #00040c;
+  border-radius: 5px;
+  color: #f8f6f5;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Style the list items */
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 15px;
+  background: #01040e;
+  border-radius: 5px;
+}
+
+li {
+  padding: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  background: #0572f0;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  cursor: pointer;
+}
+
+/* Responsive design */
+/* Mobile Styles */
+@media only screen and (min-width: 400px) {
+  .App {
+    width: 80%;
+  }
+
+  input {
+    width: 100%
+  }
+
+  button {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .App {
+    width: 60%;
+  }
+
+  input {
+    width: 50%;
+  }
+
+  button {
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 0;
+  }
+}
+
+
